@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="../resources/Icon-Transparent-1024.png" width="300vh">
+  <img src="https://github.com/TCML-Team/.github/blob/main/resources/Icon-Transparent-1024.png" width="300vh">
   <h1 style="font-family: Fira Sans">- &nbsp; Tears of the Kingdom Cross-Platform Mod Loader &nbsp; -</h1>
 </div>
 
