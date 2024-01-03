@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://github.com/TCML-Team/.github/blob/main/resources/Icon-Transparent-1024.png" width="300vh">
-  <h1 style="font-family: Fira Sans">- &nbsp; Tears of the Kingdom Cross-Platform Mod Loader &nbsp; -</h1>
+  <h1 style="font-family: Fira Sans">- &nbsp; Tears of the Kingdom Mod Manager &nbsp; -</h1>
 </div>
 
 <p align="center" style="text-align: center;">
@@ -15,7 +15,7 @@
   </a>
 </p>
 
-**TCML**, an acronym for **T**ears of the Kingdom **C**ross-platform **M**od **L**oader (merger), is a versatile tool crafted to streamline modding across multiple platforms for the game *Tears Of The Kingdom*. **TCML** utilizes [dt-12345](https://github.com/dt-12345)'s RESTBL tool and seamlessly integrates with various mod merging tools, delivering a quick and satisfying experience for modders.
+**TKMM**, an acronym for **T**ears of the **K**ingdom **M**od **M**anager, is a versatile tool crafted to streamline modding across multiple platforms for the game *Tears Of The Kingdom*. **TKMM** utilizes [dt-12345](https://github.com/dt-12345)'s RESTBL tool and seamlessly integrates with various mod merging tools, delivering a quick and satisfying experience for modders.
 
 <p>
   <a href="https://github.com/TCML-Team/Tcml/issues">
@@ -31,7 +31,7 @@
 
 ## Mod Merging
 
-TCML integrates with multiple mod merging tools to support the seamless combination of various file types.
+TKMM integrates with multiple mod merging tools to support the seamless combination of various file types.
 
 ### Current Supported File Types
 
@@ -52,9 +52,9 @@ TCML integrates with multiple mod merging tools to support the seamless combinat
 
 ### For Creators:
 
-If you are a mod creator, and would like your mod to be fully supported by TCML, here are the steps you can follow:
+If you are a mod creator, and would like your mod to be fully supported by TKMM, here are the steps you can follow:
 
-> *(TCML will work without this, just some easy stuff to help visually assist end users)*
+> *(TKMM will work without this, just some easy stuff to help visually assist end users)*
 
 - Add a `meta.json` file with a structure like this:
   ```jsonc
@@ -68,13 +68,13 @@ If you are a mod creator, and would like your mod to be fully supported by TCML,
 
 - Add a thumbnail.png file with the thumbnail for your mod!
 
-**TCML will now seamlessly merge your mod!**
+**TKMM will now seamlessly merge your mod!**
 
 ---
 
 ### For Merging
 
-This is how you prep your mod for perfect compatibility with TCML!
+This is how you prep your mod for perfect compatibility with TKMM!
 
 ```
 Add steps or instructions for mod merging compatibility here.
