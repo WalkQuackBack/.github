@@ -97,4 +97,4 @@ e.g. https://github.com/ArchLeaders/MalsMerger/blob/master/License.md
 
 <!--[![License](https://img.shields.io/badge/License-MIT-blue.svg)](License.md)-->
 
-*Join our Discord community [here](https://discord.com/invite/w7qGa5RyMc) if you'd like to contribute to the development of **TCML**. Your insights and collaboration are highly valued!*
+*Join our Discord community [here](https://discord.com/invite/w7qGa5RyMc) if you'd like to contribute to the development of **TKMM**. Your insights and collaboration are highly valued!*
