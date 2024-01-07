@@ -132,82 +132,74 @@ On the right side of the screen, located in settings, users can re-order every s
 
 # KAREN: Needs To Speak To The Manager
 
-***Karen, or***
+**Karen, or**
 
-***K - Key***  
-***A - Archival***  
-***R - Resource***  
-***E - Execution***  
-***N - Network***  
+**K** - Key  
+**A** - Archival  
+**R** - Resource  
+**E** - Execution  
+**N** - Network  
 
-Is the codename for the backend merging and packaging logic for TKMM.
+is the codename for the backend merging and packaging logic for TKMM (The KAREN Mod Manager).
 
-Karen's Logic Looks Like This:
+## Overview
 
-## Merging
-> 1. RSDB 
-> 2. SARC   
-> 3. RSTB  
-> 4. Mals  
-> 5. General (priority)
+Karen operates silently behind the scenes as the central system within TKMM, managing and executing the complex tasks of merging and packaging mods. Its primary purpose is to streamline the process, making it user-friendly and efficient, handling all the intricate details that typically burden the end-user.
 
-### RSDB:
+## Merging Process
 
-1. Pass the priority list through Karen.
-2. Apply through reverse priority.
-3. Pass the results through Karen to the ModOutput folder.
+Karen's merging process is a multi-step procedure designed to handle various mods with precision and care.
 
-### SARC:
+#### 1. RSDB:
+   - **Priority Handling**: Pass the priority list through Karen to determine the order of mod application.
+   - **Reverse Priority Application**: Apply through reverse priority to ensure the correct layering and compatibility of mods.
+   - **Output Handling**: Pass the results through Karen to the ModOutput folder, ensuring a clean and organized structure.
 
-1. Convert modlist to acceptable args through Karen, and pass said args.
-2. Rebuild changelog SARC's.
-3. Pass the results through Karen to the ModOutput folder.
+#### 2. SARC:
+   - **Argument Conversion**: Convert the modlist to acceptable args through Karen, ensuring compatibility and correct formatting.
+   - **Changelog Rebuilding**: Rebuild changelog SARC's to keep a detailed record of changes and updates.
+   - **Output Management**: Pass the results through Karen to the ModOutput folder, maintaining a streamlined process.
 
-### Mals:
+#### 3. Mals:
+   - **Argument Conversion and Handling**: Convert modlist to acceptable args through Karen, similar to the SARC process.
+   - **Mals Rebuilding**: Rebuild Mals through Karen using the changelogs, ensuring a clean and updated merge.
+   - **Result Integration**: Pass the results through Karen to the ModOutput folder, finalizing the merge.
 
-1. Convert modlist to acceptable args through Karen, and pass said args.
-2. Rebuild Mals through Karen using the changelogs
-3. Pass the results through Karen to the ModOutput folder.
+#### 4. General (priority merging):
+   - **Priority List Management**: Pass the priority list through Karen for efficient handling.
+   - **Unmergable File Detection**: Transfer unmergable files (detected with Karen) to ensure a clean and error-free merge.
 
-### General (priority merging):
+#### 5. RSTB:
+   - **Resource Table Generation**: Pass the ModOutput Folder and generate a fresh ResourceSizeTable using Karen, ensuring all resources are correctly accounted for.
 
-1. Pass the priority list through Karen.
-2. Transfer Unmergable files (detect with Karen)
+## Packaging Process
 
-### RSTB:
-  
-1. Pass the ModOutput Folder and generate a fresh ResourceSizeTable using Karen.
+The packaging process ensures that all components are properly assembled, and ready for distribution.
 
-## Packaging
+#### 1. RSDB:
+   - **Folder Search**: Search for the RSDB Folder to locate all relevant files.
+   - **Changelog Generation**: Generate changelogs through Karen for a clear record of all changes.
+   - **File Cleanup**: Delete old RSDB files to maintain a clean and up-to-date system.
 
-> 1. RSDB
-> 2. Mals
-> 3. SARC
-> 4. General
+#### 2. Mals:
+   - **Changelog Generation**: Generate changelogs through Karen, similar to the RSDB process.
+   - **File Cleanup**: Delete old Mals files, ensuring only the latest and most relevant files are retained.
 
-### RSDB:
+#### 3. SARC:
+   - **Package Generation**: Generate packages through Karen, preparing the mods for distribution and use.
 
-1. Search For The RSDB Folder
-2. Generate Changelogs Through Karen
-3. Delete Old RSDB Files
+#### 4. General:
+   - **Info File Creation**: Generate info.json using user input through Karen, providing essential information and metadata.
+   - **Thumbnail Handling**: Copy the thumbnail into the temporary folder for visual identification.
+   - **Compression**: Compress files through Karen for efficient storage and distribution.
+   - **File Renaming**: Change file extension through Karen, ensuring compatibility and recognition.
 
-### Mals:
+## Conclusion
 
-1. Generate Changelogs Through Karen
-2. Delete Old Mals Files.
+Karen is an integral part of the TKMM software, designed to handle the most challenging aspects of mod merging and packaging. Its optimized code and user-friendly design make it an indispensable tool for a seamless modding experience.
 
-### SARC:
+![Karen Diagram](https://github.com/TCML-Team/.github/blob/main/resources/Karen-Diagram.png)
 
-1. Generate Packages Through Karen
-
-### General:
-
-1. Generate info.json using user input through Karen.
-2. Copy Thumbnail into the temporary folder.
-3. Compress through Karen.
-4. Change File Extension through Karen
-  
-<img src="https://github.com/TCML-Team/.github/blob/main/resources/Karen-Diagram.png">
 
 ---
 
