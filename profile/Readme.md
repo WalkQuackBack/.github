@@ -17,7 +17,7 @@
 
 [![]("https://gamebanana.com/wips/embeddables/81203?type=medium")](https://gamebanana.com/wips/81203)
 
-**TKMM**, an acronym for **T**ears of the **K**ingdom **M**od **M**anager, is a versatile tool crafted to streamline modding across multiple platforms for the game *Tears Of The Kingdom*. **TKMM** utilizes [dt-12345](https://github.com/dt-12345)'s RESTBL tool and seamlessly integrates with various mod merging tools, delivering a quick and satisfying experience for modders.
+**TKMM**, an acronym for **T**ears of the **K**ingdom **M**od **M**anager, is a versatile tool crafted to streamline modding across multiple platforms for the game *Tears Of The Kingdom*. **TKMM** utilizes and seamlessly integrates with various mod merging tools, delivering a quick and satisfying experience for modders, and end users alike.
 
 <p>
   <a href="https://github.com/TCML-Team/Tcml/issues">
@@ -37,18 +37,20 @@ TKMM integrates with multiple mod merging tools to support the seamless combinat
 
 ### Current Supported File Types
 
-* **ResourceSizeTable** support leverages [dt-12345](https://github.com/dt-12345)'s restbl tool for an efficient Resource Size Table (RSTB) estimation, and creation.
-* **RSDB** *(Tag.Product, PouchActorInfo, GameActorInfo, etc.)* makes use of [Legend5v](https://gamebanana.com/members/2731522)'s original code with added QoL features for efficient and funtional merging.
+* **ResourceSizeTable** [LordBubbles's](https://github.com/MasterBubbles) branch of [dt12345]()'s restbl tool has been curated for maximum efficiency, and convienience!
+* **RSDB** *(Tag.Product, PouchActorInfo, GameActorInfo, etc.)* inspired by [Legend5v's](https://gamebanana.com/members/2731522)'s original code, [Lord Bubbles's](https://github.com/MasterBubbles) [RSDB merger](https://github.com/MasterBubbles/rsdb-merge) is easy to use, and very efficient.
 * **Localization (Mals)** created by [Arch Leaders](https://github.com/ArchLeaders), his [MalsMerger](https://github.com/ArchLeaders/MalsMerger) is lightning fast, ensuring you recieve your merged files as fast as possible.
+* **SARC Archives (.pack)** created by [Mika](https://github.com/okmika), his [SARC and BYML Merger](https://github.com/okmika/TKMM-SARC) is fast, efficient, and well written.
+* > **BYML Files (.byml, .bgyml)**  
+* **ShopParam Exceptions** created by [Mika](https://github.com/okmika), [Bubbles](https://github.com/MasterBubbles), and [5th](https://github.com/The5thTear), the ShopParam handler will prevent errors in regards with too many shop entries, allowing users to order their overflow shops and keep their mods from breaking.
+  
+### Potential Future File Type Support
     
-### Planned Support:
-    
-* **SARC:** Archives
-* **BYML:** Parameter Files
-* **BFRES:** Models
-* **TXTG:** Textures
+* **BFRES:** Models (texture frame anims?)
+* **TXTG:** Textures (pixel by pixel merging?)
+* **.bntx:** SARC image archives
 
-> Note: Priority-based merging for specific file types (e.g., SARC archives, bgyml, byml, bfres, txtg).
+> Note: Priority-based merging for specific file types (e.g. bfres, txtg).
 
 ## Usage
 
@@ -56,38 +58,114 @@ TKMM integrates with multiple mod merging tools to support the seamless combinat
 
 If you are a mod creator, and would like your mod to be fully supported by TKMM, here are the steps you can follow:
 
-> *(TKMM will work without this, just some easy stuff to help visually assist end users)*
+> *This is required by TKMM, but you can package old mods that aren't in TKCL format (directly in the app), and then they will work just fine.*
 
-- Add a `meta.json` file with a structure like this:
+# Using The .TKCL Packager
+
+The .TKCL Packager is simple and easy to use, designed with end users in mind. TKMM will handle the annoying backend stuff while you can have a seamless experience.
+
+## Input Fields:
+
+The Input Fields for the .TKCL Packager include:
+  
+- Output Path (C:\TotK\ExportedMod.TKCL)
+- Input Mod Folder (the mod you want to package...)
+- Mod Name (the name of the mod...)
+- The MOD Version (not the game version, but the version of the mod)
+- Author Name (the main authors name...)
+- Mod Description (the description of the mod)
+- Thumbnail Path/Url (the path of the thumbnail you would like to use)
+
+## Packaging With The .TKCL Packager
+
+Packaging with TKMM is simple. After setting up the [input fields](#input-fields), even end users will be able to package mods.
+
+Simply press the "Create Package" button located directly beneath the input fields, and the tool will automatically generate changelogs for you.
+
+If you encounter any errors, feel free to join the discord and report it in #bug-reports
+
+## info.JSON Structure
   ```jsonc
-  {
-    "modName": "Your Mod Name",
-    "description": "Description of your mod",
-    "author": "Your Name",
-    // Add any other relevant information
-  }
+    {
+    "Id": "00000000-0000-0000-0000-000000000000", - GUID, DO NOT MAKE ANY GUID'S MATCH
+    "Name": "Insert Mod Name Here",
+    "Version": "Mod Version, Not Game Version",
+    "Author": "Main Author Goes Here",
+    "Contributors": [
+        {
+        "Name": "Contributor 1",
+        "Contributions": ["Contributions"]
+        },
+        {
+        "Name": "Contributor 2",
+        "Contributions": ["Contributions"]
+        }
+    ],
+    "Description": "Description Goes Here",
+    "ThumbnailUri": "thumbnail name or url goes here."
+    }
   ```
-
-- Add a thumbnail.png file with the thumbnail for your mod!
-
-**TKMM will now seamlessly merge your mod!**
 
 ---
 
-### For Merging
-
-This is how you prep your mod for perfect compatibility with TKMM!
+# Merging Mods
 
 ```
-Add steps or instructions for mod merging compatibility here.
+1. Import All Mods Using Mod > Import, or dragging and dropping TKCL package's onto the program.
+
+2. Configure the priority list (the higher up the mod, the higher the priority).
+
+3. Merge All Mods Using Mod > Merge
+
+4. Your Merged Mods Will Be Located In "insert final path here"
 ```
+
+# ShopParam Exceptions
+
+ShopParam Parameter files break after being overloaded with more than 111 entries, to combat this, a system has been set in place to supply the overflowing entries with a place to go.
+  
+On the right side of the screen, located in settings, users can re-order every shop in the game (priority wise), to determine which files get filled first, second, and so on.
+  
+Sometimes this is neccesary, but the team has your back covered!
 
 ---
 
 # Contributions and Special Thanks
 
 ```
-(Insert Final Special Thanks Here)
+Arch Leaders - UI Support + Development, Understanding and Major Help. New BYML Lib, MalsMerger, fixing MessageStudio, being good and genuine.  
+
+Lord Bubbles - RSDB Merger, RSTB Calculator, Feedback, Being Awesome.
+
+Mika - SARC + BYML Merger, Speed.
+
+Aster - Graphic Design, original idea, feedback, fun.
+
+The5thTear - UI, and Tool Dev, Documentation, screaming for help.
+
+Alciel - moderation, beta testing.
+
+Godzilla4 - moderation, beta testing.
+
+mr.the - Beta Testing + Feedback.
+
+Legend5v - Original RSDB-Merger Code.
+
+Watertoon - Documentation.
+
+dt12345 - Extensive Knowledge, TotK Script Repo :).
+
+tom (gamebanana staff) - One-Click Install Support.
+
+xPretorianx - Supporter.
+
+vintii - Supporter.
+
+Mindstormman - Supporter.
+
+King Of The Gnomes - Beta Testing.
+
+Rennai - Affiliation/Promotion.
 ```
 
 <!--
