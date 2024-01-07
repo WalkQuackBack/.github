@@ -122,11 +122,92 @@ If you encounter any errors, feel free to join the discord and report it in #bug
 
 # ShopParam Exceptions
 
-ShopParam Parameter files break after being overloaded with more than 111 entries, to combat this, a system has been set in place to supply the overflowing entries with a place to go.
+#### ShopParam Parameter files break after being overloaded with more than 111 entries.
+
+To combat this, a system has been set in place to supply the overflowing entries with a place to go.
   
 On the right side of the screen, located in settings, users can re-order every shop in the game (priority wise), to determine which files get filled first, second, and so on.
   
-Sometimes this is neccesary, but the team has your back covered!
+> Sometimes this is neccesary, but the team has your back covered!
+
+# KAREN: Needs To Speak To The Manager
+
+***Karen, or***
+
+***K - Key***  
+***A - Archival***  
+***R - Resource***  
+***E - Execution***  
+***N - Network***  
+
+Is the codename for the backend merging and packaging logic for TKMM.
+
+Karen's Logic Looks Like This:
+
+## Merging
+> 1. RSDB 
+> 2. SARC   
+> 3. RSTB  
+> 4. Mals  
+> 5. General (priority)
+
+### RSDB:
+
+1. Pass the priority list through Karen.
+2. Apply through reverse priority.
+3. Pass the results through Karen to the ModOutput folder.
+
+### SARC:
+
+1. Convert modlist to acceptable args through Karen, and pass said args.
+2. Rebuild changelog SARC's.
+3. Pass the results through Karen to the ModOutput folder.
+
+### Mals:
+
+1. Convert modlist to acceptable args through Karen, and pass said args.
+2. Rebuild Mals through Karen using the changelogs
+3. Pass the results through Karen to the ModOutput folder.
+
+### General (priority merging):
+
+1. Pass the priority list through Karen.
+2. Transfer Unmergable files (detect with Karen)
+
+### RSTB:
+  
+1. Pass the ModOutput Folder and generate a fresh ResourceSizeTable using Karen.
+
+## Packaging
+
+> 1. RSDB
+> 2. Mals
+> 3. SARC
+> 4. General
+
+### RSDB:
+
+1. Search For The RSDB Folder
+2. Generate Changelogs Through Karen
+3. Delete Old RSDB Files
+
+### Mals:
+
+1. Generate Changelogs Through Karen
+2. Delete Old Mals Files.
+
+### SARC:
+
+1. Generate Packages Through Karen
+
+### General:
+
+1. Generate info.json using user input through Karen.
+2. Copy Thumbnail into the temporary folder.
+3. Compress through Karen.
+4. Change File Extension through Karen
+  
+<img src="https://github.com/TCML-Team/.github/blob/main/resources/Karen-Diagram.png">
 
 ---
 
