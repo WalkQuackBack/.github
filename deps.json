@@ -1,0 +1,54 @@
+{
+    "0": {
+        "Repo": "MalsMerger",
+        "Owner": "ArchLeaders",
+        "Tag": "1.1.2",
+        "Assets": {
+            "win-x64": "MalsMerger.exe",
+            "linux-x64": "MalsMerger"
+        },
+        "Files": {
+            "win-x64": "MalsMerger.exe",
+            "linux-x64": "MalsMerger"
+        }
+    },
+    "1": {
+        "Repo": "TKMM-SARC",
+        "Owner": "okmika",
+        "Tag": "v1.0-beta-8",
+        "Assets": {
+            "win-x64": "TKMM.SarcTool-win-x64.zip",
+            "linux-x64": "TKMM.SarcTool-linux-x64.zip"
+        },
+        "Files": {
+            "win-x64": "TKMM.SarcTool.exe",
+            "linux-x64": "TKMM.SarcTool"
+        }
+    },
+    "2": {
+        "Repo": "rsdb-merge",
+        "Owner": "MasterBubbles",
+        "Tag": "1.5.1",
+        "Assets": {
+            "win-x64": "rsdb-merge.exe",
+            "linux-x64": "rsdb-merge"
+        },
+        "Files": {
+            "win-x64": "rsdb-merge.exe",
+            "linux-x64": "rsdb-merge"
+        }
+    },
+    "3": {
+        "Repo": "restbl",
+        "Owner": "MasterBubbles",
+        "Tag": "1.3.2",
+        "Assets": {
+            "win-x64": "restbl.exe",
+            "linux-x64": "restbl"
+        },
+        "Files": {
+            "win-x64": "restbl.exe",
+            "linux-x64": "restbl"
+        }
+    }
+}
