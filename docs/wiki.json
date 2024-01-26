@@ -1,0 +1,17 @@
+[
+    {
+        "Name": "package",
+        "Title": "Mod Packaging",
+        "Description": "When packaging a mod using TKMM, developers have a variety of fields that they can fill in. The mod's title, version, and primary author, and a thumbnail image are required in order to package a TKCL. Optional fields include a link to the mod's gamebanana page, a link to an additional site related to the mod, additional authors, and a description."
+    },
+    {
+        "Name": "merge",
+        "Title": "Mod Merging",
+        "Description": ""
+    },
+    {
+        "Name": "mod-options",
+        "Title": "Mod Options",
+        "Description": "When packaging a TKCL (Mod Archive), modders have the option to package their mod with sub-packages containing extra content. Mod options have priority over the main TKCL file, for example: If the base of a mod edits Alb1.txtg, but an option also edits Alb1.txtg, the options edit will be the one included upon merging. Options can be mandatory, optional (singular or multi select), and options can be reliant upon each other."
+    }
+]
