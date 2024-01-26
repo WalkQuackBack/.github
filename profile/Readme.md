@@ -17,7 +17,7 @@
 
 [![]("https://gamebanana.com/wips/embeddables/81203?type=medium")](https://gamebanana.com/wips/81203)
 
-**TKMM**, an acronym for **T**ears of the **K**ingdom **M**od **M**anager, is a versatile tool crafted to streamline modding across multiple platforms for the game *Tears Of The Kingdom*. **TKMM** utilizes [dt-12345](https://github.com/dt-12345)'s RESTBL tool and seamlessly integrates with various mod merging tools, delivering a quick and satisfying experience for modders.
+**TKMM**, an acronym for **T**ears of the **K**ingdom **M**od **M**anager, is a versatile tool crafted to streamline modding across multiple platforms for the game *Tears Of The Kingdom*. **TKMM** utilizes and seamlessly integrates with various mod merging tools, delivering a quick and satisfying experience for modders, and end users alike.
 
 <p>
   <a href="https://github.com/TCML-Team/Tcml/issues">
@@ -37,57 +37,51 @@ TKMM integrates with multiple mod merging tools to support the seamless combinat
 
 ### Current Supported File Types
 
-* **ResourceSizeTable** support leverages [dt-12345](https://github.com/dt-12345)'s restbl tool for an efficient Resource Size Table (RSTB) estimation, and creation.
-* **RSDB** *(Tag.Product, PouchActorInfo, GameActorInfo, etc.)* makes use of [Legend5v](https://gamebanana.com/members/2731522)'s original code with added QoL features for efficient and funtional merging.
+* **ResourceSizeTable** [LordBubbles's](https://github.com/MasterBubbles) branch of [dt12345]()'s restbl tool has been curated for maximum efficiency, and convienience!
+* **RSDB** *(Tag.Product, PouchActorInfo, GameActorInfo, etc.)* inspired by [Legend5v's](https://gamebanana.com/members/2731522)'s original code, [Lord Bubbles's](https://github.com/MasterBubbles) [RSDB merger](https://github.com/MasterBubbles/rsdb-merge) is easy to use, and very efficient.
 * **Localization (Mals)** created by [Arch Leaders](https://github.com/ArchLeaders), his [MalsMerger](https://github.com/ArchLeaders/MalsMerger) is lightning fast, ensuring you recieve your merged files as fast as possible.
-    
-### Planned Support:
-    
-* **SARC:** Archives
-* **BYML:** Parameter Files
-* **BFRES:** Models
-* **TXTG:** Textures
-
-> Note: Priority-based merging for specific file types (e.g., SARC archives, bgyml, byml, bfres, txtg).
-
-## Usage
-
-### For Creators:
-
-If you are a mod creator, and would like your mod to be fully supported by TKMM, here are the steps you can follow:
-
-> *(TKMM will work without this, just some easy stuff to help visually assist end users)*
-
-- Add a `meta.json` file with a structure like this:
-  ```jsonc
-  {
-    "modName": "Your Mod Name",
-    "description": "Description of your mod",
-    "author": "Your Name",
-    // Add any other relevant information
-  }
-  ```
-
-- Add a thumbnail.png file with the thumbnail for your mod!
-
-**TKMM will now seamlessly merge your mod!**
-
----
-
-### For Merging
-
-This is how you prep your mod for perfect compatibility with TKMM!
-
-```
-Add steps or instructions for mod merging compatibility here.
-```
+* **SARC Archives (.pack)** created by [Mika](https://github.com/okmika), his [SARC and BYML Merger](https://github.com/okmika/TKMM-SARC) is fast, efficient, and well written.
+* > **BYML Files (.byml, .bgyml)**  
+* **ShopParam Exceptions** created by [Mika](https://github.com/okmika), [Bubbles](https://github.com/MasterBubbles), and [5th](https://github.com/The5thTear), the ShopParam handler will prevent errors in regards with too many shop entries, allowing users to order their overflow shops and keep their mods from breaking.
 
 ---
 
 # Contributions and Special Thanks
 
 ```
-(Insert Final Special Thanks Here)
+Arch Leaders - UI Support + Development, Understanding and Major Help. New BYML Lib, MalsMerger, fixing MessageStudio, being good and genuine.  
+
+Lord Bubbles - RSDB Merger, RSTB Calculator, Feedback, Being Awesome.
+
+Mika - SARC + BYML Merger, Speed.
+
+Aster - Graphic Design, original idea, feedback, fun.
+
+The5thTear - UI, and Tool Dev, Documentation, screaming for help.
+
+Alciel - moderation, beta testing.
+
+Godzilla4 - moderation, beta testing.
+
+mr.the - Beta Testing + Feedback.
+
+Legend5v - Original RSDB-Merger Code.
+
+Watertoon - Documentation.
+
+dt12345 - Extensive Knowledge, TotK Script Repo :).
+
+tom (gamebanana staff) - One-Click Install Support.
+
+xPretorianx - Supporter.
+
+vintii - Supporter.
+
+Mindstormman - Supporter.
+
+King Of The Gnomes - Beta Testing.
+
+Rennai - Affiliation/Promotion.
 ```
 
 <!--
@@ -97,4 +91,4 @@ e.g. https://github.com/ArchLeaders/MalsMerger/blob/master/License.md
 
 <!--[![License](https://img.shields.io/badge/License-MIT-blue.svg)](License.md)-->
 
-*Join our Discord community [here](https://discord.com/invite/w7qGa5RyMc) if you'd like to contribute to the development of **TCML**. Your insights and collaboration are highly valued!*
+*Join our Discord community [here](https://discord.com/invite/w7qGa5RyMc) if you'd like to contribute to the development of **TKMM**. Your insights and collaboration are highly valued!*
