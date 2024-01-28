@@ -10,7 +10,10 @@
         "Files": {
             "win-x64": "MalsMerger.exe",
             "linux-x64": "MalsMerger"
-        }
+        },
+        "Exclude": [
+            "/Mals"
+        ]
     },
     "1": {
         "Repo": "TKMM-SARC",
@@ -23,7 +26,17 @@
         "Files": {
             "win-x64": "TKMM.SarcTool.exe",
             "linux-x64": "TKMM.SarcTool"
-        }
+        },
+        "Exclude": [
+            ".byml",
+            ".bgyml",
+            ".bfarc",
+            ".bkres",
+            ".blarc",
+            ".genvb",
+            ".pack",
+            ".ta"
+        ]
     },
     "2": {
         "Repo": "rsdb-merge",
@@ -36,7 +49,10 @@
         "Files": {
             "win-x64": "rsdb-merge.exe",
             "linux-x64": "rsdb-merge"
-        }
+        },
+        "Exclude": [
+            "/RSDB"
+        ]
     },
     "3": {
         "Repo": "restbl",
@@ -49,6 +65,9 @@
         "Files": {
             "win-x64": "restbl.exe",
             "linux-x64": "restbl"
-        }
+        },
+        "Exclude": [
+            ".rsizetable"
+        ]
     }
 }
