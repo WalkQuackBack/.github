@@ -1,13 +1,13 @@
 [
   {
     "Owner": "TKMM-Team",
-    "Repo": "Tkmm",
+    "Repo": ".github",
     "Asset": "assets/shops.json",
     "FilePath": "%localappdata%/Tkmm/shops.json"
   },
   {
     "Owner": "TKMM-Team",
-    "Repo": "Tkmm",
+    "Repo": ".github",
     "Asset": "assets/checksums.bin",
     "FilePath": "%localappdata%/Totk/checksums.bin"
   }
