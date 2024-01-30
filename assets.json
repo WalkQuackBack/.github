@@ -1,0 +1,12 @@
+[
+    {
+      "Owner": "TKMM-Team",
+      "Repo": "Tkmm",
+      "Asset": "/resources/shops.json"
+    },
+    {
+        "Owner": "TKMM-Team",
+        "Repo": "Tkmm",
+        "Asset": "/resources/checksums.bin"
+    }
+  ]
