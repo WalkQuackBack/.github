@@ -1,17 +1,17 @@
 <div align="center">
-  <img src="https://github.com/TCML-Team/.github/blob/main/resources/Icon-Transparent-1024.png" width="300vh">
+  <img src="https://github.com/TKMM-Team/.github/blob/main/resources/Icon-Transparent-1024.png" width="300vh">
   <h1 style="font-family: Fira Sans">- &nbsp; Tears of the Kingdom Mod Manager &nbsp; -</h1>
 </div>
 
 <p align="center" style="text-align: center;">
-  <a href="https://github.com/TCML-Team/Tcml/releases">
-    <img src="https://img.shields.io/github/v/tag/TCML-Team/Tcml?style=for-the-badge&logoColor=C71B42&color=C71B42&labelColor=2A2C33&logo=github&label=Version" alt="Releases' YouTube"/>
+  <a href="https://github.com/TKMM-Team/Tkmm/releases">
+    <img src="https://img.shields.io/github/v/tag/TKMM-Team/Tkmm?style=for-the-badge&logoColor=C71B42&color=C71B42&labelColor=2A2C33&logo=github&label=Version" alt="Releases' YouTube"/>
   </a> &nbsp;
   <a href="https://discord.com/invite/w7qGa5RyMc">
     <img src="https://img.shields.io/discord/1179611100183011429?style=for-the-badge&logoColor=3b83c8&color=3b83c8&labelColor=2A2C33&logo=discord&label=discord" alt="Discord"/>
   </a> &nbsp;
-  <a href="https://github.com/TCML-Team/Tcml">
-    <img src="https://img.shields.io/github/stars/TCML-Team/Tcml?style=for-the-badge&logoColor=FFCB41&color=FFCB41&labelColor=2A2C33&logo=github" alt="Stars"/>
+  <a href="https://github.com/TKMM-Team/Tkmm">
+    <img src="https://img.shields.io/github/stars/TKMM-Team/Tkmm?style=for-the-badge&logoColor=FFCB41&color=FFCB41&labelColor=2A2C33&logo=github" alt="Stars"/>
   </a>
 </p>
 
@@ -20,14 +20,14 @@
 **TKMM**, an acronym for **T**ears of the **K**ingdom **M**od **M**anager, is a versatile tool crafted to streamline modding across multiple platforms for the game *Tears Of The Kingdom*. **TKMM** utilizes and seamlessly integrates with various mod merging tools, delivering a quick and satisfying experience for modders, and end users alike.
 
 <p>
-  <a href="https://github.com/TCML-Team/Tcml/issues">
-    <img src="https://img.shields.io/github/issues/TCML-Team/Tcml?logoColor=red&color=red&logo=github&style=flat&labelColor=2A2C33" alt="Issues"/>
+  <a href="https://github.com/TKMM-Team/Tkmm/issues">
+    <img src="https://img.shields.io/github/issues/TKMM-Team/Tkmm?logoColor=red&color=red&logo=github&style=flat&labelColor=2A2C33" alt="Issues"/>
   </a> &nbsp;
-  <a href="https://github.com/TCML-Team/Tcml/pulls">
-    <img src="https://img.shields.io/github/issues-pr/TCML-Team/Tcml?style=flat&labelColor=2A2C33&logoColor=blue&color=blue&logo=github" alt="Open Pull Requests"/>
+  <a href="https://github.com/TKMM-Team/Tkmm/pulls">
+    <img src="https://img.shields.io/github/issues-pr/TKMM-Team/Tkmm?style=flat&labelColor=2A2C33&logoColor=blue&color=blue&logo=github" alt="Open Pull Requests"/>
   </a> &nbsp;
-  <a href="https://github.com/TCML-Team/Tcml/pulls">
-    <img src="https://img.shields.io/github/issues-pr-closed/TCML-Team/Tcml?style=flat&labelColor=2A2C33&logoColor=5751FF&color=5751FF&logo=github" alt="Closed Pull Requests"/>
+  <a href="https://github.com/TKMM-Team/Tkmm/pulls">
+    <img src="https://img.shields.io/github/issues-pr-closed/TKMM-Team/Tkmm?style=flat&labelColor=2A2C33&logoColor=5751FF&color=5751FF&logo=github" alt="Closed Pull Requests"/>
   </a>
 </p>
 
