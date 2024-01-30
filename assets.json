@@ -1,12 +1,14 @@
 [
-    {
-      "Owner": "TKMM-Team",
-      "Repo": "Tkmm",
-      "Asset": "/resources/shops.json"
-    },
-    {
-        "Owner": "TKMM-Team",
-        "Repo": "Tkmm",
-        "Asset": "/resources/checksums.bin"
-    }
-  ]
+  {
+    "Owner": "TKMM-Team",
+    "Repo": "Tkmm",
+    "Asset": "/assets/shops.json",
+    "FilePath": "%localappdata%/Tkmm/shops.json"
+  },
+  {
+    "Owner": "TKMM-Team",
+    "Repo": "Tkmm",
+    "Asset": "/assets/checksums.bin",
+    "FilePath": "%localappdata%/Totk/checksums.bin"
+  }
+]
