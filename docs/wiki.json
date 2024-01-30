@@ -7,7 +7,7 @@
     {
         "Name": "merge",
         "Title": "Mod Merging",
-        "Description": ""
+        "Description": "When merging mods using TKMM, it takes advantage of sub-tools to merge certain file formats. If your mods have issues merging, be sure to check the logs tab for any errors."
     },
     {
         "Name": "mod-options",
