@@ -37,21 +37,5 @@
         "Exclude": [
             "/RSDB"
         ]
-    },
-    "2": {
-        "Repo": "restbl",
-        "Owner": "MasterBubbles",
-        "Tag": "1.3.2",
-        "Assets": {
-            "win-x64": "restbl.exe",
-            "linux-x64": "restbl"
-        },
-        "Files": {
-            "win-x64": "restbl.exe",
-            "linux-x64": "restbl"
-        },
-        "Exclude": [
-            ".rsizetable"
-        ]
     }
 }
