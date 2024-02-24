@@ -10,5 +10,11 @@
     "Repo": ".github",
     "Asset": "assets/checksums.bin",
     "FilePath": "%localappdata%/Totk/checksums.bin"
+  },
+  {
+    "Owner": "TKMM-Team",
+    "Repo": ".github",
+    "Asset": "assets/trivia.txt",
+    "FilePath": "%localappdata%/Tkmm/trivia.txt"
   }
 ]
