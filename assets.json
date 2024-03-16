@@ -3,18 +3,18 @@
     "Owner": "TKMM-Team",
     "Repo": ".github",
     "Asset": "assets/shops.json",
-    "FilePath": "%localappdata%/Tkmm/shops.json"
+    "FilePath": "%localappdata%/tkmm/shops.json"
   },
   {
     "Owner": "TKMM-Team",
     "Repo": ".github",
     "Asset": "assets/checksums.bin",
-    "FilePath": "%localappdata%/Totk/checksums.bin"
+    "FilePath": "%localappdata%/totk/checksums.bin"
   },
   {
     "Owner": "TKMM-Team",
     "Repo": ".github",
     "Asset": "assets/trivia.txt",
-    "FilePath": "%localappdata%/Tkmm/trivia.txt"
+    "FilePath": "%localappdata%/tkmm/trivia.txt"
   }
 ]
