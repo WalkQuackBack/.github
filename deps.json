@@ -2,7 +2,7 @@
     "0": {
         "Repo": "TKMM-SARC",
         "Owner": "okmika",
-        "Tag": "v1.0-beta-13",
+        "Tag": "v1.0-beta-16",
         "Assets": {
             "win-x64": "TKMM.SarcTool-win-x64.zip",
             "linux-x64": "TKMM.SarcTool-linux-x64.zip"
