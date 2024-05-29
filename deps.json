@@ -25,7 +25,7 @@
     "1": {
         "Repo": "rsdb-merge",
         "Owner": "MasterBubbles",
-        "Tag": "2.0-rev2",
+        "Tag": "2.2",
         "Assets": {
             "win-x64": "rsdb-merge.exe",
             "linux-x64": "rsdb-merge"
