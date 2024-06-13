@@ -37,7 +37,7 @@ TKMM smartly combines your mods and maximizes the likelihood that your game will
 
 * [Windows (x64/arm64)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=windows)
 * [Linux (x64/arm64)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=linux)
-* [macOS (x64/Apple Silicon)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=linux)
+* [macOS (x64/Apple Silicon)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=macos)
 
 # Help & Documentation
 
