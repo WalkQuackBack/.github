@@ -41,9 +41,13 @@ TKMM smartly combines your mods and maximizes the likelihood that your game will
 * [Aster](https://github.com/AsteroidPizza39)
 * [The5thTear](https://github.com/The5thTear)
 
+# Help & Documentation
+
+[TKMM's Support Website](https://tkmm-team.github.io/Tkmm-Wiki/index.html)
+
 # Discord
 
-Join our Discord community [here](https://discord.com/invite/3tNUBWQRXv)
+[Join our Discord community](https://discord.com/invite/3tNUBWQRXv)
 
 # License
 
