@@ -33,13 +33,11 @@ TKMM smartly combines your mods and maximizes the likelihood that your game will
   </a>
 </p>
 
-# Written by the TKMM Team
+# Download TKMM
 
-* [Arch Leaders](https://github.com/ArchLeaders)
-* [Lord Bubbles](https://github.com/MasterBubbles)
-* [Mikachan](https://github.com/okmika)
-* [Aster](https://github.com/AsteroidPizza39)
-* [The5thTear](https://github.com/The5thTear)
+* [Windows (x64/arm64)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=windows)
+* [Linux (x64/arm64)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=linux)
+* [macOS (x64/Apple Silicon)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=linux)
 
 # Help & Documentation
 
@@ -48,6 +46,15 @@ TKMM smartly combines your mods and maximizes the likelihood that your game will
 # Discord
 
 [Join our Discord community](https://discord.com/invite/3tNUBWQRXv)
+
+# Written by the TKMM Team
+
+* [Arch Leaders](https://github.com/ArchLeaders)
+* [Lord Bubbles](https://github.com/MasterBubbles)
+* [Mikachan](https://github.com/okmika)
+* [Aster](https://github.com/AsteroidPizza39)
+* [The5thTear](https://github.com/The5thTear)
+
 
 # License
 
