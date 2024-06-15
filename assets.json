@@ -9,7 +9,7 @@
     "Owner": "TKMM-Team",
     "Repo": ".github",
     "Asset": "assets/checksums.bin",
-    "FilePath": "%localappdata%/Totk/checksums.bin"
+    "FilePath": "%localappdata%/totk/checksums.bin"
   },
   {
     "Owner": "TKMM-Team",
@@ -27,6 +27,6 @@
     "Owner": "TKMM-Team",
     "Repo": ".github",
     "Asset": "assets/archivemappings.bin",
-    "FilePath": "%localappdata%/Totk/archivemappings.bin"
+    "FilePath": "%localappdata%/totk/archivemappings.bin"
   }
 ]
