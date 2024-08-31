@@ -30,6 +30,9 @@ TKMM smartly combines your mods and maximizes the likelihood that your game will
   </a> &nbsp;
   <a href="https://github.com/TKMM-Team/Tkmm/pulls">
     <img src="https://img.shields.io/github/issues-pr-closed/TKMM-Team/Tkmm?style=flat&labelColor=2A2C33&logoColor=5751FF&color=5751FF&logo=github" alt="Closed Pull Requests"/>
+  </a> &nbsp;
+  <a href="https://totkmods.github.io/tkmm/downloads/">
+    <img src="https://img.shields.io/github/downloads/TKMM-Team/Tkmm/total?style=flat&labelColor=2A2C33&logoColor=008000&color=008000&logo=github" alt="Downloads"/>
   </a>
 </p>
 
