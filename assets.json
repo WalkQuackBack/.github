@@ -16,5 +16,17 @@
     "Repo": ".github",
     "Asset": "assets/trivia.txt",
     "FilePath": "%localappdata%/tkmm/trivia.txt"
+  },
+  {
+    "Owner": "TKMM-Team",
+    "Repo": ".github",
+    "Asset": "assets/suggested.json",
+    "FilePath": "%localappdata%/tkmm/suggested.json"
+  },
+  {
+    "Owner": "TKMM-Team",
+    "Repo": ".github",
+    "Asset": "assets/archivemappings.bin",
+    "FilePath": "%localappdata%/totk/archivemappings.bin"
   }
 ]
