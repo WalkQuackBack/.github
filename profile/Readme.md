@@ -5,55 +5,26 @@
 
 <p align="center" style="text-align: center;">
   <a href="https://github.com/TKMM-Team/Tkmm/releases">
-    <img src="https://img.shields.io/github/v/tag/TKMM-Team/Tkmm?style=for-the-badge&logoColor=C71B42&color=C71B42&labelColor=2A2C33&logo=github&label=Version" alt="Releases' YouTube"/>
-  </a> &nbsp;
-  <a href="https://discord.com/invite/3tNUBWQRXv">
-    <img src="https://img.shields.io/discord/1179611100183011429?style=for-the-badge&logoColor=3b83c8&color=3b83c8&labelColor=2A2C33&logo=discord&label=discord" alt="Discord"/>
-  </a> &nbsp;
+    <img src="https://img.shields.io/github/v/tag/TKMM-Team/Tkmm?style=flat&logo=github&logoColor=%23000000&label=%20&labelColor=%23FFFFFF&color=%23000000&link=https%3A%2F%2Fgithub.com%2FTKMM-Team%2FTkmm%2Freleases%2Flatest" alt="Releases"/>
+  </a>
+  <a href="https://discord.gg/3tNUBWQRXv">
+    <img alt="Discord" src="https://img.shields.io/discord/1179611100183011429?style=flat&logo=discord&logoColor=%23FFFFFF&label=discord&labelColor=%235865F2&color=23a55a">
+  </a>
   <a href="https://github.com/TKMM-Team/Tkmm">
-    <img src="https://img.shields.io/github/stars/TKMM-Team/Tkmm?style=for-the-badge&logoColor=FFCB41&color=FFCB41&labelColor=2A2C33&logo=github" alt="Stars"/>
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/TKMM-Team/Tkmm?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyMHB4IiBmaWxsPSIjMDAwMDAwIj48cGF0aCBkPSJtNDgwLTI4NS0xNjQgOThxLTExIDYtMjEuNSA1dC0xOC41LTdxLTgtNi0xMi0xNi41dC0xLTIxLjVsNDMtMTgzLTE0NS0xMjNxLTktOC0xMS0xOC41dDEtMjAuNXEzLTEwIDExLTE2LjV0MjAtNy41bDE5MC0xNyA3NS0xNzRxNS0xMSAxNC0xNi41dDE5LTUuNXExMCAwIDE5IDUuNXQxNCAxNi41bDc1IDE3NSAxOTAgMTZxMTIgMSAyMCA4dDExIDE3cTMgMTAgLjUgMjBUNzk4LTUzM0w2NTQtNDEwbDQzIDE4M3EzIDExLTEgMjEuNVQ2ODQtMTg5cS04IDYtMTguNSA3dC0yMS41LTVsLTE2NC05OFoiLz48L3N2Zz4%3D&labelColor=%23FFFFFF&color=%23FBC84F">
   </a>
+
+  <br />
+  <br />
+
+  <a href="https://tkmm.org/downloads">
+    <img alt="Downloads" src="https://img.shields.io/badge/Windows%2C%20MacOS%2C%20Linux-%233ea45?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyMHB4IiBmaWxsPSIjMDAwMDAwIj48cGF0aCBkPSJNMjE2LTE0NHEtMjkuNyAwLTUwLjg1LTIxLjE1UTE0NC0xODYuMyAxNDQtMjE2di01MjhxMC0yOS43IDIxLjE1LTUwLjg1UTE4Ni4zLTgxNiAyMTYtODE2aDIyOHExNS4zIDAgMjUuNjUgMTAuMjlRNDgwLTc5NS40MiA0ODAtNzgwLjIxdC0xMC4zNSAyNS43MVE0NTkuMy03NDQgNDQ0LTc0NEgyMTZ2NTI4aDUyOHYtMjI4cTAtMTUuMyAxMC4yOS0yNS42NVE3NjQuNTgtNDgwIDc3OS43OS00ODB0MjUuNzEgMTAuMzVRODE2LTQ1OS4zIDgxNi00NDR2MjI4cTAgMjkuNy0yMS4xNSA1MC44NVE3NzMuNy0xNDQgNzQ0LTE0NEgyMTZabTUyOC01NDlMNDEyLTM2MXEtMTEgMTEtMjUgMTAuNVQzNjItMzYycS0xMS0xMS0xMS0yNS41dDExLTI1LjVsMzMxLTMzMWgtODFxLTE1LjMgMC0yNS42NS0xMC4yOVE1NzYtNzY0LjU4IDU3Ni03NzkuNzl0MTAuMzUtMjUuNzFRNTk2LjctODE2IDYxMi04MTZoMTY4cTE1LjMgMCAyNS42NSAxMC4zNVE4MTYtNzk1LjMgODE2LTc4MHYxNjhxMCAxNS4zLTEwLjI5IDI1LjY1UTc5NS40Mi01NzYgNzgwLjIxLTU3NnQtMjUuNzEtMTAuMzVRNzQ0LTU5Ni43IDc0NC02MTJ2LTgxWiIvPjwvc3ZnPg%3D%3D&label=downloads&labelColor=%23FFFFFF">
+    <a href="https://tkmm.org/docs">
+    <img alt="Documentation" src="https://img.shields.io/badge/Documentation-%23FFFFFF?style=flat&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjBweCIgdmlld0JveD0iMCAtOTYwIDk2MCA5NjAiIHdpZHRoPSIyMHB4IiBmaWxsPSIjMDAwMDAwIj48cGF0aCBkPSJNMjE2LTE0NHEtMjkuNyAwLTUwLjg1LTIxLjE1UTE0NC0xODYuMyAxNDQtMjE2di01MjhxMC0yOS43IDIxLjE1LTUwLjg1UTE4Ni4zLTgxNiAyMTYtODE2aDIyOHExNS4zIDAgMjUuNjUgMTAuMjlRNDgwLTc5NS40MiA0ODAtNzgwLjIxdC0xMC4zNSAyNS43MVE0NTkuMy03NDQgNDQ0LTc0NEgyMTZ2NTI4aDUyOHYtMjI4cTAtMTUuMyAxMC4yOS0yNS42NVE3NjQuNTgtNDgwIDc3OS43OS00ODB0MjUuNzEgMTAuMzVRODE2LTQ1OS4zIDgxNi00NDR2MjI4cTAgMjkuNy0yMS4xNSA1MC44NVE3NzMuNy0xNDQgNzQ0LTE0NEgyMTZabTUyOC01NDlMNDEyLTM2MXEtMTEgMTEtMjUgMTAuNVQzNjItMzYycS0xMS0xMS0xMS0yNS41dDExLTI1LjVsMzMxLTMzMWgtODFxLTE1LjMgMC0yNS42NS0xMC4yOVE1NzYtNzY0LjU4IDU3Ni03NzkuNzl0MTAuMzUtMjUuNzFRNTk2LjctODE2IDYxMi04MTZoMTY4cTE1LjMgMCAyNS42NSAxMC4zNVE4MTYtNzk1LjMgODE2LTc4MHYxNjhxMCAxNS4zLTEwLjI5IDI1LjY1UTc5NS40Mi01NzYgNzgwLjIxLTU3NnQtMjUuNzEtMTAuMzVRNzQ0LTU5Ni43IDc0NC02MTJ2LTgxWiIvPjwvc3ZnPg%3D%3D">
 </p>
 
-[![]("https://gamebanana.com/wips/embeddables/81203?type=medium")](https://gamebanana.com/wips/81203)
+**TKMM** (**T**ears of the **K**ingdom **M**od **M**anager) is a mod packager and merger for Tears of the Kingdom.
 
-**TKMM**, (**T**ears of the **K**ingdom **M**od **M**anager) is a mod packager and merger. TKMM automatically takes modded game files and generates bite-sized changelogs for important mod assets (like BYML files, GameDataList, and RSDB) and packages them (along with all other mod assets, like models and textures) into a single archive. A series of those archives can then be merged and combined, in order of preferred priority, into a single mod folder, ready to be loaded into the game.
+**TKMM** manages many aspects of mod management, such as RESTBL calculation, overlapping files, changelogs and more, ensuring a streamlined process and reducing hassle when using mods.
 
-TKMM smartly combines your mods and maximizes the likelihood that your game will load with all of your favorites ready to go.
-
-<p>
-  <a href="https://github.com/TKMM-Team/Tkmm/issues">
-    <img src="https://img.shields.io/github/issues/TKMM-Team/Tkmm?logoColor=red&color=red&logo=github&style=flat&labelColor=2A2C33" alt="Issues"/>
-  </a> &nbsp;
-  <a href="https://github.com/TKMM-Team/Tkmm/pulls">
-    <img src="https://img.shields.io/github/issues-pr/TKMM-Team/Tkmm?style=flat&labelColor=2A2C33&logoColor=blue&color=blue&logo=github" alt="Open Pull Requests"/>
-  </a> &nbsp;
-  <a href="https://github.com/TKMM-Team/Tkmm/pulls">
-    <img src="https://img.shields.io/github/issues-pr-closed/TKMM-Team/Tkmm?style=flat&labelColor=2A2C33&logoColor=5751FF&color=5751FF&logo=github" alt="Closed Pull Requests"/>
-  </a> &nbsp;
-  <a href="https://totkmods.github.io/tkmm/downloads/">
-    <img src="https://img.shields.io/github/downloads/TKMM-Team/Tkmm/total?style=flat&labelColor=2A2C33&logoColor=008000&color=008000&logo=github" alt="Downloads"/>
-  </a>
-</p>
-
-# Download TKMM
-
-* [Windows (x64/arm64)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=windows)
-* [Linux (x64/arm64)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=linux)
-* [macOS (x64/Apple Silicon)](https://tkmm-team.github.io/Tkmm-Wiki/downloads/index.html?tabs=macos)
-
-# Help & Documentation
-
-[TKMM's Support Website](https://tkmm-team.github.io/Tkmm-Wiki/index.html)
-
-# Discord
-
-[Join our Discord community](https://discord.com/invite/3tNUBWQRXv)
-
-# Written by the TKMM Team
-
-* [Arch Leaders](https://github.com/ArchLeaders)
-* [Lord Bubbles](https://github.com/MasterBubbles)
-* [Mikachan](https://github.com/okmika)
-* [Aster](https://github.com/AsteroidPizza39)
-* [The5thTear](https://github.com/The5thTear)
+TKCL's are the format that **TKMM** packages mods into. They support features such as [Option Groups](https://tkmm.org/docs/using-mods/#configuring-options), have smaller file sizes, support changelogs and other features. If you're downloading a mod to merge with **TKMM**, it is reconmended to look for a TKCL file available for the mod first.
